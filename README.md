@@ -14,12 +14,12 @@ python3 gameOfLife.py --help
 ```
 ## Usage
 ```
-python3 gameOfLife.py [-h] [--size WIDTH HEIGHT] [--demo {glider,spaceship,rpentomino,fifteencycle}] [-p]
+python3 gameOfLife.py [-h] [--size WIDTH HEIGHT] [--demo {glider,canoe,spaceship,rpentomino,glidergun,unix,hilbert}] [-p]
 optional arguments:
   -h, --help            show this help message and exit
   --size, -s WIDTH HEIGHT
                         set the width and height
-  --demo {glider,spaceship,rpentomino,fifteencycle}
+  --demo {glider,canoe,spaceship,rpentomino,glidergun,unix,hilbert}
                         example starting states
   -p, --periodic        toggle periodic boundary conditions
 ```
