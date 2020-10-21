@@ -61,7 +61,8 @@ def mainloop(game):
                 pygame.draw.rect(screen,color, 
                                 [(MARGIN + PIXEL_SIZE) * row + MARGIN, (MARGIN + PIXEL_SIZE) * column + MARGIN,
                                 PIXEL_SIZE, PIXEL_SIZE])
-
+        
+        #print(game.alive)
         clock = pygame.time.Clock()
         clock.tick(speed)
         pygame.display.flip()

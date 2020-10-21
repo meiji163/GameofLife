@@ -1,6 +1,8 @@
 # Game of Life
 A game of life application written using PyGame.
+
 ![rpentomino](https://media.giphy.com/media/EA1yHtJbvWXDx2dWNr/giphy.gif)
+
 Conway's game of life is a cellular automaton. Each cell has 8 neighbors, and is either alive or dead. Each step, the status of the cell is updated. If the cell is dead and has three alive neighbors, it becomes alive. If the cell is alive and has three live neighbors it keeps living. All other cells die. There are several interesting open questions; for example, do there exist [oscillators](https://www.conwaylife.com/wiki/Oscillator) of every period?
 ## Install
 The only requirements are Python 3.8 and [PyGame](https://www.pygame.org/wiki/GettingStarted), which can be installed with pip
@@ -28,7 +30,7 @@ python3 gameOfLife.py --demo rpentomino #example usage
 ``` 
 ## Controls
 * Spacebar - Toggle edit mode
-* Left Click - Kill or bring to life a cell in edit mode
+* Left Click - Kill or bring to life a cell when in edit mode
 * Up/Down arrows - Increase/decrease game speed
 
 ## Todo
